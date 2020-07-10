@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "build": "tsc 1>&2",
+    "clean": "rimraf lib",
+    "lint": "tslint -p . 1>&2"
+  },
+  "repository": {},
+  "dependencies": {
+    "@bentley/bentleyjs-core": "2.1.0",
+    "@bentley/geometry-core": "2.1.0",
+    "@bentley/imodeljs-common": "2.1.0",
+    "@bentley/imodeljs-backend": "2.1.0",
+    "@bentley/backend-itwin-client": "2.1.0",
+    "@bentley/itwin-client": "2.1.0",
+    "@bentley/imodelhub-client": "2.1.0",
+    "yargs": "^15.0.0"
+  },
+  "devDependencies": {
+    "@bentley/build-tools": "2.1.0",
+    "@types/yargs": "^15.0.0",
+    "rimraf": "^2.7.1"
+  }
+}
